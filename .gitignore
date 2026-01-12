@@ -1,0 +1,85 @@
+# Build directories
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.lib
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!cmake/*.cmake
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+
+# Qt
+*.pro.user
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+*.log.*
+
+# Environment/Secrets
+.env
+.env.*
+config/secrets.local.h
+
+# Dependencies (if vendored)
+external/
+third_party/
+vendor/
+
+# Test artifacts
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Package artifacts
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# OBS plugin specific
+data/obs-plugins/hoo-raid/
